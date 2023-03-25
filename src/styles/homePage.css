@@ -1,0 +1,30 @@
+.main-container-card {
+  margin: 6rem 1rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.container-form-card {
+}
+.container-resumo-financeiro {
+    width: 385px;
+  }
+.container-card h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--grey-4);
+}
+
+@media (min-width: 768px) {
+  .main-container-card {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .container-resumo-financeiro h3 {
+    /* margin-left: 1rem; */
+  }
+}
